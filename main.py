@@ -30,7 +30,6 @@ def print_slide(slides):
 def get_info(info):
     global DELAY
     global SLIDES
-    print(info)
     for setting in info:
         if setting.startswith('delay:'):
             DELAY = float(setting[6:])
